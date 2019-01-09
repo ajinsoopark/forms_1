@@ -3,21 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Form from './form.js';
-
-// class Main extends Component {
-//     constructor () {
-//         super ()
-//     }
-
-//     render () {
-
-//         return (
-
-//             <Form />
-//         )
-//     }
-// }
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
