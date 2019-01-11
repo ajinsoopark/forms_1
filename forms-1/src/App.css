@@ -1,4 +1,137 @@
-.App {
-  
+@font-face {
+    font-family: 'myFont';
+    src: url('https://fonts.googleapis.com/css?family=Shrikhand');
 }
 
+
+.backHeader {
+    width: 1280px;
+    height: 184px;
+    background-image: linear-gradient(to bottom right,#604C41, #ED835C);
+    z-index: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.bottomBack {
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/hand-sketched-cartoon-little-blinking-stars_vlr9s5nie__F0000.png');
+    height: 100%;
+    margin: 0;
+}
+
+.form {
+    background-color: white;
+    width: 770px;
+    margin: 0px;
+    z-index: 10;
+    border-radius: 5px;
+    margin-top: -120px;
+    font-family: "Consolas", monospace;
+}
+
+.question {
+    font-size: 25px;
+    padding: 40px;
+    margin: 10px;
+    font-family: "Consolas", monospace;
+}
+
+small {
+    font-size: 10px;
+    color: red;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none !important;
+    border-bottom: solid #ED835C;
+    transition: 0.3s;
+}
+
+.radio {
+    font-size: 18px;
+    margin: 15px;
+}
+
+select {
+    margin: 10px;
+    outline: 0;
+    background: transparent;
+    height: 40px;
+    content: '<>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    right: 11px;
+}
+
+.checkbox {
+    font-size: 18px;
+    margin: 15px;
+}
+
+textarea {
+    margin: 20px;
+    height: 90px;
+    width: 500px;
+    font-size: 16px;
+    outline: 0;
+}
+
+#confirm {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    outline: 0px;
+    box-shadow: 2px 2px black;
+}
+
+.allThatApply {
+    font-size: 13px;
+    color: grey
+}
+
+.confirmation {
+    padding-left: 50px;
+}
+
+.submitButton {
+    font-size: 25px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    outline: 0px;
+    box-shadow: 2px 2px black;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/hand-sketched-cartoon-little-blinking-stars_vlr9s5nie__F0000.png');
+    height: 100vh;
+}
+
+.thankYou {
+    width: 500px;
+    height: 150px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom right, #ED835C, #604C41);
+}
